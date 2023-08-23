@@ -1,0 +1,28 @@
+import React from 'react';
+
+  //First component.
+  
+function Hello()
+{
+return(
+        <div>  
+          <h2>  
+            Hello 
+          </h2> 
+        </div>
+        );
+}          
+
+  //second component.
+
+const Hello1 = ()=>
+    {
+    return(
+            <div>
+              Hello2
+            </div>
+            );
+    }
+
+    export {Hello1};
+    export default Hello;
