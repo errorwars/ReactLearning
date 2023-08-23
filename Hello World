@@ -1,1 +1,10 @@
+import React from 'react';
+
+function Hello()
+{
+  return (                        //multiples tag lines cant come in a single line, we use paranthesis.
+          <div> Hello World </div>
+         );
+}
+export default Hello;             // only one component can be exported as default.
 
